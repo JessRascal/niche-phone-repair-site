@@ -20,6 +20,9 @@ module.exports = {
           disabled: 'rgba(255,255,255,0.38)',
         },
       },
+      spacing: {
+        13: '3.25rem',
+      },
     },
   },
   variants: {},

@@ -1,4 +1,9 @@
-<section class="min-h-screen bg-gray-400">
-  {% include "_includes/_nav.njk" %}
-  <p>This is the hero section</p>
+<section class="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 lg:min-h-screen">
+  <div class="min-h-screen py-10 px-13 bg-primary text-light-high-emphasis">
+    <p>This is col 1</p>
+  </div>
+  <div class="min-h-screen py-10 px-13">
+    {% include "_includes/_nav.njk" %}
+    <p>This is col 2</p>
+  </div>
 </section>
